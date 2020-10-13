@@ -20,11 +20,11 @@
 	<meta property="og:type" content="website" />
   <link rel="canonical" href="http://adityaarolkar.com"/>
   <meta name="theme-color" content="#FF9A19">
-	<title>Aditya Arolkar | Front End Developer</title>
+  <title>Aditya Arolkar | Front End Developer</title>
   <link rel="shortcut icon" href="<?php echo BASE_URL; ?>favicon.ico" type="image/x-icon" />
-	<link rel="icon" href="<?php echo BASE_URL; ?>favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+  <link rel="icon" href="<?php echo BASE_URL; ?>favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="120x120" href="<?php echo BASE_URL; ?>img/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo BASE_URL; ?>img/apple-touch-icon-152x152.png" />
   <style>
 		.spinner{width:100px;height:50px;position:absolute;top:0;bottom:0;right:0;left:0;margin:auto;text-align:center}.spinner .ball{width:20px;height:20px;background-color:#FF9A19;border-radius:50%;display:inline-block;-webkit-animation:motion 3s cubic-bezier(.77,0,.175,1) infinite;animation:motion 3s cubic-bezier(.77,0,.175,1) infinite}@-webkit-keyframes motion{0%,100%,50%{-webkit-transform:translateX(0) scale(1);transform:translateX(0) scale(1)}25%{-webkit-transform:translateX(-50px) scale(.3);transform:translateX(-50px) scale(.3)}75%{-webkit-transform:translateX(50px) scale(.3);transform:translateX(50px) scale(.3)}}@keyframes motion{0%,100%,50%{-webkit-transform:translateX(0) scale(1);transform:translateX(0) scale(1)}25%{-webkit-transform:translateX(-50px) scale(.3);transform:translateX(-50px) scale(.3)}75%{-webkit-transform:translateX(50px) scale(.3);transform:translateX(50px) scale(.3)}}
 		#backdrop{position:fixed !important;z-index:1000;width:100%;height:100%;background:#fff;}
@@ -35,7 +35,7 @@
   <link href="<?php echo BASE_URL; ?>css/style.min.css" rel="stylesheet" type="text/css" />
 	<link rel=”author” href="https://google.com/+ADITYAAROLKAR" />
   <!-- Custom Fonts -->
-  <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+  <link href="<?php echo BASE_URL; ?>vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
   <link href="https://fonts.googleapis.com/css?family=Ubuntu|Lato:400,700,400italic,700italic|Neucha|Old+Standard+TT" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>js/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>js/pre-script.js"></script>
@@ -399,6 +399,32 @@
 									<p>Built a contact form using AJAX and PHP to send a message from user as a mail to client.</p>
 									<p>Converted website from AI(Adobe Illustrator File) to HTML.</p>
 									<a href="https://www.hearsound.net/" target="_blank">
+										<button class="button button--line button--effect-2">
+											<span class="morph-shape" data-morph-active="M282.5,62.5c0,27.891-8.648,51.994-36.5,50.5c-24.049-1.29-44.75-8-96-8c-56.75,0-71.952,6.71-96,8c-27.851,1.494-36.5-22.609-36.5-50.5l0,0C17.5,34.609,26.215,9.572,54,12c23.973,2.095,39.75,7,96,7c51.502,0,72.01-5.125,96-7C273.807,9.827,282.5,34.609,282.5,62.5L282.5,62.5z">
+												<svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">
+													<path d="M286.5,62.5c0,27.891-12.609,50.5-40.5,50.5c-44.25,0-44.75,0-96,0c-56.75,0-56.5,0-96,0c-27.891,0-40.5-22.609-40.5-50.5l0,0C13.5,34.609,26.109,12,54,12c39.5,0,39.75,0,96,0c51.502,0,51.5,0,96,0C273.891,12,286.5,34.609,286.5,62.5L286.5,62.5z"/>
+												</svg>
+											</span>
+												<span type="submit" class="button__text btns">Visit Website</span>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slide">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<img class="project-snap" src="<?php echo BASE_URL; ?>img/work/zoetis.png" alt="zoetis"/>
+								</div>
+								<div class="col-md-5 project-description">
+									<h3>Zoetis</h3>
+									<p>Developed a single framework multi-version website for USA, Australia, Spain and 3 other countries. </p>
+									<p>Used ReactJS with MobX in frontend and CrownPeak CMS as the backend</p>
+									<a href="https://www2.zoetis.com.au/academy" target="_blank">
 										<button class="button button--line button--effect-2">
 											<span class="morph-shape" data-morph-active="M282.5,62.5c0,27.891-8.648,51.994-36.5,50.5c-24.049-1.29-44.75-8-96-8c-56.75,0-71.952,6.71-96,8c-27.851,1.494-36.5-22.609-36.5-50.5l0,0C17.5,34.609,26.215,9.572,54,12c23.973,2.095,39.75,7,96,7c51.502,0,72.01-5.125,96-7C273.807,9.827,282.5,34.609,282.5,62.5L282.5,62.5z">
 												<svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">

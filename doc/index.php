@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<?php Define ('BASE_URL','https://adityaarolkar.com/');?>
+	  <!--?php Define ('BASE_URL','http://localhost/portfolio/');?-->
+	<?php Define ('BASE_URL','http://adityaarolkar.com/');?>
 	<!-- ?php Define ('BASE_URL','https://adityaarolkarcompany.000webhostapp.com/');? -->
   <!--?php Define ('BASE_URL','http://localhost/adi/');?-->
 	<!--meta http-equiv="Content-Type" content="text/html; charset=windows-1252"-->
@@ -55,6 +56,9 @@
     });
   </script>
   <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0019/2921.js" async="async"></script>
+  <style>
+   iframe { width: 100%; height: 100vh;}
+  </style>
 </head>
 <body id="page-top" class="index">
 	<!--Loader-->

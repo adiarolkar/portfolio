@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <?php Define ('BASE_URL','https://adityaarolkar.com/');?>
+  <?php Define ('BASE_URL','http://adityaarolkar.com/');?>
   <!-- ?php Define ('BASE_URL','https://adityaarolkarcompany.000webhostapp.com/');? -->
-  <!-- ?php Define ('BASE_URL','http://localhost/adi/');? -->
+  <!--?php Define ('BASE_URL','http://localhost/portfolio/');?-->
   <!--meta http-equiv="Content-Type" content="text/html; charset=windows-1252"-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -232,13 +232,13 @@
     							<div title="GitHub" class="ico_sprite github"></div>
     						</div>
     						<div class="text-center skill_set">
-    							<div title="Jira" class="ico_sprite jira"></div>
-    						</div>
-    						<div class="text-center skill_set">
     							<div title="Google Analytics" class="ico_sprite googleanalytics"></div>
     						</div>
     						<div class="text-center skill_set">
     							<div title="MySQL" class="ico_sprite mysql"></div>
+    						</div>
+							<div class="text-center skill_set">
+    							<div title="Jira" class="ico_sprite jira"></div>
     						</div>
     					</div>
     				</div>
@@ -279,6 +279,33 @@
 		</div>
 		<div id="slideshow" class="slideshow">
 			<ul>
+				<li>
+					<div class="slide">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7 m-t-30">
+                  <img class="project-snap" src="<?php echo BASE_URL; ?>img/work/houm.png" alt="Houm Technologies"/>
+								</div>
+								<div class="col-md-5 project-description">
+									<h3>Houm</h3>
+									<p>Enables users to build their digital webspace with ownership.</p>
+                  <p>Developed the web app using ReactJS, ReduxJS, NodeJS, SailsJS & ExpressJS.</p>
+                  <p>Used package managers and bundlers like NPM, Bower, Grunt, Gulp, Webpack, etc.</p>
+									<a href="https://houm.me/" target="_blank">
+										<button class="button button--line button--effect-2">
+											<span class="morph-shape" data-morph-active="M282.5,62.5c0,27.891-8.648,51.994-36.5,50.5c-24.049-1.29-44.75-8-96-8c-56.75,0-71.952,6.71-96,8c-27.851,1.494-36.5-22.609-36.5-50.5l0,0C17.5,34.609,26.215,9.572,54,12c23.973,2.095,39.75,7,96,7c51.502,0,72.01-5.125,96-7C273.807,9.827,282.5,34.609,282.5,62.5L282.5,62.5z">
+												<svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">
+													<path d="M286.5,62.5c0,27.891-12.609,50.5-40.5,50.5c-44.25,0-44.75,0-96,0c-56.75,0-56.5,0-96,0c-27.891,0-40.5-22.609-40.5-50.5l0,0C13.5,34.609,26.109,12,54,12c39.5,0,39.75,0,96,0c51.502,0,51.5,0,96,0C273.891,12,286.5,34.609,286.5,62.5L286.5,62.5z"/>
+												</svg>
+											</span>
+												<span type="submit" class="button__text btns">Visit Web App</span>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
 				<li>
 					<div class="slide">
 						<div class="container">
@@ -332,34 +359,61 @@
 						</div>
 					</div>
 				</li>
-        <li>
+				<li>
 					<div class="slide">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-7 m-t-30">
-                  <img class="project-snap" src="<?php echo BASE_URL; ?>img/work/houm.png" alt="Houm Technologies"/>
+								<div class="col-md-7">
+									<img class="project-snap" src="<?php echo BASE_URL; ?>img/work/hometown.png" alt="Hometown"/>
 								</div>
 								<div class="col-md-5 project-description">
-									<h3>Houm</h3>
-									<p>Enables users to build their digital webspace with ownership.</p>
-                  <p>Developed the web app using ReactJS, ReduxJS, NodeJS, SailsJS & ExpressJS.</p>
-                  <p>Used package managers and bundlers like NPM, Bower, Grunt, Gulp, Webpack, etc.</p>
-									<!--a href="https://houm.me/" target="_blank">
+									<h3>HomeTown</h3>
+									<p>Online shopping website for Hometown.</p>
+									<p>Developed the website with HTML, SASS, JavaScript, jQuery.</p>
+									<p>Made all the pages compatible for integration with shopping cart.</p>
+									<a href="https://www.hometown.in/" target="_blank">
 										<button class="button button--line button--effect-2">
 											<span class="morph-shape" data-morph-active="M282.5,62.5c0,27.891-8.648,51.994-36.5,50.5c-24.049-1.29-44.75-8-96-8c-56.75,0-71.952,6.71-96,8c-27.851,1.494-36.5-22.609-36.5-50.5l0,0C17.5,34.609,26.215,9.572,54,12c23.973,2.095,39.75,7,96,7c51.502,0,72.01-5.125,96-7C273.807,9.827,282.5,34.609,282.5,62.5L282.5,62.5z">
 												<svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">
 													<path d="M286.5,62.5c0,27.891-12.609,50.5-40.5,50.5c-44.25,0-44.75,0-96,0c-56.75,0-56.5,0-96,0c-27.891,0-40.5-22.609-40.5-50.5l0,0C13.5,34.609,26.109,12,54,12c39.5,0,39.75,0,96,0c51.502,0,51.5,0,96,0C273.891,12,286.5,34.609,286.5,62.5L286.5,62.5z"/>
 												</svg>
 											</span>
-												<span type="submit" class="button__text btns">Visit Web App</span>
+												<span type="submit" class="button__text btns">Visit Website</span>
 										</button>
-									</a-->
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</li>
-        <li>
+				<li>
+					<div class="slide">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-7">
+									<img class="project-snap" src="<?php echo BASE_URL; ?>img/work/hearing-delight.png" alt="hearsound"/>
+								</div>
+								<div class="col-md-5 project-description">
+									<h3>HearSound</h3>
+                  <p>Designed and developed the website with HTML, SCSS, JavaScript. </p>
+									<p>Built a contact form using AJAX and PHP to send a message from user as a mail to client.</p>
+									<p>Converted website from AI(Adobe Illustrator File) to HTML.</p>
+									<a href="https://www.hearsound.net/" target="_blank">
+										<button class="button button--line button--effect-2">
+											<span class="morph-shape" data-morph-active="M282.5,62.5c0,27.891-8.648,51.994-36.5,50.5c-24.049-1.29-44.75-8-96-8c-56.75,0-71.952,6.71-96,8c-27.851,1.494-36.5-22.609-36.5-50.5l0,0C17.5,34.609,26.215,9.572,54,12c23.973,2.095,39.75,7,96,7c51.502,0,72.01-5.125,96-7C273.807,9.827,282.5,34.609,282.5,62.5L282.5,62.5z">
+												<svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">
+													<path d="M286.5,62.5c0,27.891-12.609,50.5-40.5,50.5c-44.25,0-44.75,0-96,0c-56.75,0-56.5,0-96,0c-27.891,0-40.5-22.609-40.5-50.5l0,0C13.5,34.609,26.109,12,54,12c39.5,0,39.75,0,96,0c51.502,0,51.5,0,96,0C273.891,12,286.5,34.609,286.5,62.5L286.5,62.5z"/>
+												</svg>
+											</span>
+												<span type="submit" class="button__text btns">Visit Website</span>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--li>
 					<div class="slide">
 						<div class="container">
 							<div class="row">
@@ -380,12 +434,13 @@
 												<span type="submit" class="button__text btns">Visit Website</span>
 										</button>
 									</a-->
-								</div>
+								<!--/div>
 							</div>
 						</div>
 					</div>
 				</li>
-        <li>
+        <li-->
+				<li>
 					<div class="slide">
 						<div class="container">
 							<div class="row">
@@ -434,60 +489,6 @@
 												<span type="submit" class="button__text btns">Visit Website</span>
 										</button>
 									</a-->
-								</div>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="slide">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-7">
-									<img class="project-snap" src="<?php echo BASE_URL; ?>img/work/hometown.png" alt="Hometown"/>
-								</div>
-								<div class="col-md-5 project-description">
-									<h3>HomeTown</h3>
-									<p>Online shopping website for Hometown.</p>
-									<p>Developed the website with HTML, SASS, JavaScript, jQuery.</p>
-									<p>Made all the pages compatible for integration with shopping cart.</p>
-									<a href="https://www.hometown.in/" target="_blank">
-										<button class="button button--line button--effect-2">
-											<span class="morph-shape" data-morph-active="M282.5,62.5c0,27.891-8.648,51.994-36.5,50.5c-24.049-1.29-44.75-8-96-8c-56.75,0-71.952,6.71-96,8c-27.851,1.494-36.5-22.609-36.5-50.5l0,0C17.5,34.609,26.215,9.572,54,12c23.973,2.095,39.75,7,96,7c51.502,0,72.01-5.125,96-7C273.807,9.827,282.5,34.609,282.5,62.5L282.5,62.5z">
-												<svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">
-													<path d="M286.5,62.5c0,27.891-12.609,50.5-40.5,50.5c-44.25,0-44.75,0-96,0c-56.75,0-56.5,0-96,0c-27.891,0-40.5-22.609-40.5-50.5l0,0C13.5,34.609,26.109,12,54,12c39.5,0,39.75,0,96,0c51.502,0,51.5,0,96,0C273.891,12,286.5,34.609,286.5,62.5L286.5,62.5z"/>
-												</svg>
-											</span>
-												<span type="submit" class="button__text btns">Visit Website</span>
-										</button>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="slide">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-7">
-									<img class="project-snap" src="<?php echo BASE_URL; ?>img/work/hearing-delight.png" alt="Hearing Delight"/>
-								</div>
-								<div class="col-md-5 project-description">
-									<h3>Hearing Delight</h3>
-                  <p>Designed and developed the website with HTML, SCSS, JavaScript. </p>
-									<p>Built a contact form using AJAX and PHP to send a message from user as a mail to client.</p>
-									<p>Converted website from AI(Adobe Illustrator File) to HTML.</p>
-									<a href="https://hearingdelight.com" target="_blank">
-										<button class="button button--line button--effect-2">
-											<span class="morph-shape" data-morph-active="M282.5,62.5c0,27.891-8.648,51.994-36.5,50.5c-24.049-1.29-44.75-8-96-8c-56.75,0-71.952,6.71-96,8c-27.851,1.494-36.5-22.609-36.5-50.5l0,0C17.5,34.609,26.215,9.572,54,12c23.973,2.095,39.75,7,96,7c51.502,0,72.01-5.125,96-7C273.807,9.827,282.5,34.609,282.5,62.5L282.5,62.5z">
-												<svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">
-													<path d="M286.5,62.5c0,27.891-12.609,50.5-40.5,50.5c-44.25,0-44.75,0-96,0c-56.75,0-56.5,0-96,0c-27.891,0-40.5-22.609-40.5-50.5l0,0C13.5,34.609,26.109,12,54,12c39.5,0,39.75,0,96,0c51.502,0,51.5,0,96,0C273.891,12,286.5,34.609,286.5,62.5L286.5,62.5z"/>
-												</svg>
-											</span>
-												<span type="submit" class="button__text btns">Visit Website</span>
-										</button>
-									</a>
 								</div>
 							</div>
 						</div>
@@ -736,7 +737,7 @@
   </div>
   	<div class="row container footer">
   		<div class="col-lg-12 text-center post-footer">
-  				&copy; Aditya Arolkar 2019
+  				&copy; Aditya Arolkar 2020
   		</div>
   	</div>
   </section>
